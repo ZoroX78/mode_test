@@ -1,0 +1,40 @@
+embeddings {
+  tensor_name: "symbol:12110"
+  metadata_path: "12110/symbol\\metadata.tsv"
+  tensor_path: "12110/symbol\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "sector:12110"
+  metadata_path: "12110/sector\\metadata.tsv"
+  tensor_path: "12110/sector\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "day_of_week:12110"
+  metadata_path: "12110/day_of_week\\metadata.tsv"
+  tensor_path: "12110/day_of_week\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "month:12110"
+  metadata_path: "12110/month\\metadata.tsv"
+  tensor_path: "12110/month\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "quarter:12110"
+  metadata_path: "12110/quarter\\metadata.tsv"
+  tensor_path: "12110/quarter\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "is_fno_expiry:12110"
+  metadata_path: "12110/is_fno_expiry\\metadata.tsv"
+  tensor_path: "12110/is_fno_expiry\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "is_month_end:12110"
+  metadata_path: "12110/is_month_end\\metadata.tsv"
+  tensor_path: "12110/is_month_end\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "is_union_budget_month:12110"
+  metadata_path: "12110/is_union_budget_month\\metadata.tsv"
+  tensor_path: "12110/is_union_budget_month\\tensors.tsv"
+}

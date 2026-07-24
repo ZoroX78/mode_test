@@ -1,14 +1,22 @@
 [project]
 name = "mode-test"
 version = "0.1.0"
-description = "Add your description here"
+description = "NSE market data fetcher and feature engineering"
 readme = "README.md"
 requires-python = ">=3.12,<3.14"
 dependencies = [
     "numpy>=1.26,<2.3",
     "pandas>=2.2,<3",
     "pandas-ta>=0.3.14b",
-    "pyarrow>=25.0.0",
-    "tqdm>=4.69.0",
-    "yfinance>=1.5.1",
+    "pyarrow>=14",
+    "pytorch-forecasting>=1.8.0",
+    "pytorch-lightning>=2.6.5",
+    "tensorboard>=2.21.0",
+    "tensorboardx>=2.6.5",
+    "torch>=2.13.0",
+    "tqdm>=4.66",
+    "yfinance>=0.2.40",
 ]
+
+[tool.uv]
+package = false

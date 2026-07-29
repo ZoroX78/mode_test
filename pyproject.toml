@@ -5,6 +5,7 @@ description = "NSE market data fetcher and feature engineering"
 readme = "README.md"
 requires-python = ">=3.12,<3.14"
 dependencies = [
+    "matplotlib>=3.11.1",
     "numpy>=1.26,<2.3",
     "pandas>=2.2,<3",
     "pandas-ta>=0.3.14b",
